@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/jquery.min.js"></script>
+    <script src="./script/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+           
+            <a class="navbar-brand" href="#">Todo App</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" onclick="toggleVisibility('Menu1');"><span class="glyphicon glyphicon-apple"></span> APP</a></li>
+              <li><a href="#" onclick="toggleVisibility('Menu2');"><span class="glyphicon glyphicon-info-sign"></span> ABOUT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+      <div id="Menu1">
+          <div class="toDoList">
+            <input id="task" placeholder="Type some todos"><button id="add"><span class="glyphicon glyphicon-plus"></button>
+            <div id="todos"></div>
+          </div>
+      </div>
+      <div id="Menu2" style="display: none;">
+        <h3>To Do List</h3>
+        <p>ToDoList comes first on our list of best to-do list apps. 
+           ToDoList is one of the best task management tools created for individuals and teams. 
+           With its simplified, user-friendly GUI letting you navigate a powerful set of features, 
+           ToDoList stands out of the crowd when it comes to helping with task completion.
+        </p><br>
+        <p>You can create tasks and subtasks and schedule them as a single time or recurring tasks. Through checklists, you can list down the things to be done. Moreover, you can create projects and associate multiple tasks under it. You can organize, prioritize tasks and monitor task status.</p>
+      </div>
+      <script src="./script/script.js"></script>
+</body>
+</html>

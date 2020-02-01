@@ -1,0 +1,131 @@
+body{
+    background-color: #ececec;
+}
+.glyphicon{
+    color:#656565;
+}
+
+.navbar{
+    border-radius: 0 !important;
+}
+ul{
+    list-style-type:none;
+    padding: 0;
+}
+li{
+    display: inline-block;
+}
+.toDoList{
+    width: 40%;
+    margin: 0 auto;
+    padding: 22px;
+    border: 1px solid #a7a2a2;
+}
+#task{
+    width: 81%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding:8px;
+}
+.items-li{
+    width: 90%;
+}
+.items{
+    margin-bottom: 18px;
+    width: 90%;
+    min-height: 32px;
+    border: 1px solid #a9a9a9;
+    display: inline-block;
+    padding: 0 10px;
+}
+#add{
+    height: 30px;
+    margin-left: 15px;
+}
+.remove{
+    height: 32px;
+    float: right;
+}
+.check{
+    float: left;
+    margin-top: 6px;
+    height: 25px;
+    width: 18px;
+}
+.item-text{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    word-break: break-all;
+    width: 90%;
+    border: none;
+    background: #ececec;
+}
+
+#Menu2{
+    padding: 20px;
+}
+/*code for mobile devices*/
+@media only screen and (max-width: 600px) {
+
+    .navbar-brand{
+    margin-left: 69px;
+    font-size: 22px;
+    }
+    .navbar-toggle{
+        float: left;
+        margin-left: 15px;
+    }
+    .toDoList {
+        width: 100%;
+        margin: 0 auto;
+        padding: 22px;
+        border: 4px solid #a7a2a2;
+        min-height: 663px;
+    }
+    .navbar{
+        margin-bottom: 0px;
+    }
+    #task {
+        width: 85%;
+        height: 38px;
+        margin-bottom: 20px;
+        margin-top: 4px;
+        padding: 8px;
+        font-size: 18px;
+    }
+    #add {
+        height: 39px;
+        margin-left: 15px;
+        width: 35px;
+    }
+    .items-li {
+        width: 100%;
+    }
+    .items {
+        margin-bottom: 18px;
+        width: 85%;
+        min-height: 42px;
+        border: 2px solid #a9a9a9;
+        display: inline-block;
+        padding: 0 10px;
+    }
+    .remove {
+        height: 42px;
+        width: 36px;
+        float: right;
+        margin-right: 3px;
+    }
+    .check {
+        float: left;
+        margin-top: 6px;
+        height: 30px;
+        width: 20px;
+        /* border: 1px solid #000; */
+    }
+    .item-text{
+        font-size: 18px;
+        color:#000;
+        width:88%;
+    }
+  }
